@@ -98,6 +98,7 @@ typedef enum {none=0, plus, minus, multiply, divide} Operator;
     calc = [[Calculator alloc] init];
     currentValue = 0;
     currentOpr = none;
+    self.myLabel.text = @"0";
 }
 
 - (void)didReceiveMemoryWarning {
